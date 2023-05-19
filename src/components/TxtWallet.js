@@ -31,7 +31,7 @@ export default function Bio({ stats, optedIn, walletConnected }) {
     <div className="absol">
       <p className="txt-shadow">
         Total of creatures Captured in the area:
-        {stats.find((_) => _.key === "global_capture")?.value}
+        {stats.find((_) => _.key === "globalScore")?.value}
       </p>
     </div>
   );

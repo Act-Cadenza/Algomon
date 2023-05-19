@@ -251,7 +251,7 @@ function BoxCanvas({
   if (isBattleOver) {
     return (
       <div className="center-container txt-shadow">
-        <h1>The Monster is Killed</h1>
+        <h1>Monster has been killed, unable to capture.</h1>
         <button onClick={handleRun}>Back to the Map</button>
       </div>
     );
