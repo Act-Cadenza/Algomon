@@ -103,6 +103,15 @@ button {
   cursor:pointer;
 }
 
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #ff0000;
+  color: #fffefe;
+  text-decoration: line-through;
+  cursor: no-drop
+}
+
 #button-connect{
 background-color: #8A0000;
 box-shadow: none;
@@ -290,3 +299,29 @@ p {
     
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

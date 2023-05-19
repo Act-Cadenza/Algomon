@@ -223,11 +223,14 @@ function BoxCanvas({
             Run
           </button>
           <button
-            className="txt-shadow"
+            className="txt-shadow tooltip"
             onClick={() => caught()}
             disabled={!(enemyHp <= 20)}
           >
             Capture The Creature!
+            <span class="tooltiptext">
+              Weaken the monster before capturing it.
+            </span>
           </button>
         </div>
         <div className="waiting">

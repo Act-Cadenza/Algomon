@@ -1,3 +1,12 @@
+* {
+  cursor: url('maps/default.png'), auto;
+}
+
+button:enabled{
+  cursor: url('maps/pointer.png'), auto;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
