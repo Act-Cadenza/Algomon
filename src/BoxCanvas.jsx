@@ -248,6 +248,8 @@ function BoxCanvas({
 
   console.log(stats.find((_) => _.key === "player_hp")?.value);
 
+  console.log(stats.find((_) => _.key === "globalScore")?.value);
+
   if (isBattleOver) {
     return (
       <div className="center-container txt-shadow">
