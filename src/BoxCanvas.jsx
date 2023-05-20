@@ -120,9 +120,6 @@ function BoxCanvas({
   function handleClick() {
     onTodoAction("proceed");
     console.log("Battle!");
-    if (isInBattle) {
-      setShowButton(false);
-    }
   }
 
   useEffect(() => {
@@ -242,6 +239,7 @@ function BoxCanvas({
 
   const handleRun = () => {
     onTodoAction("run");
+    setShowButton(false);
   };
 
   console.log(stats.find((_) => _.key === "mons_hp")?.value);
@@ -263,7 +261,14 @@ function BoxCanvas({
     return (
       <div className="center-container txt-shadow">
         <h1>Game Over</h1>
-        <button onClick={() => onTodoAction("revive")}>Revive Character</button>
+        <button
+          onClick={() => {
+            onTodoAction("revive");
+            showButton(false);
+          }}
+        >
+          Revive Character
+        </button>
       </div>
     );
   }

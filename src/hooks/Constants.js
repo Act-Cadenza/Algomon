@@ -2,6 +2,6 @@ export const CONSTANTS = {
   algodToken: "",
   baseServer: "https://testnet-api.algonode.cloud",
   port: "443",
-  APP_ID: 213243790,
-  explorer: "https://testnet.algoexplorer.io/application/213243790",
+  APP_ID: 214035673,
+  explorer: "https://testnet.algoexplorer.io/application/214035673",
 };
