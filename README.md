@@ -26,4 +26,4 @@ When a battle with a monster begins, the player has several choices. They can ch
 
 If the player is defeated by a monster during a battle, they have the option to resurrect by pressing  the "revive character" button. This action replenishes the player's health and respawns them on the map, allowing them to continue playing the game.
 
-Here is the [demo link](https://algomon.vercel.app/) hosted in vercel to try it out.![image](https://github.com/Act-Cadenza/Algomon/assets/71002490/2f4042b8-5feb-4a66-b72a-e9c978862d6d)
+Here is the [demo link](https://algomon.vercel.app/) hosted in vercel to try it out.
