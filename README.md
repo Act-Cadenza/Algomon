@@ -28,6 +28,6 @@ If the player is defeated by a monster during a battle, they have the option to 
 
 Here's a [video recording](https://drive.google.com/file/d/1_yhyL0xmOX6I1B8BQtzkijeFIiADcQfH/view?usp=sharing) demonstrating the user's interactions with the dApp.
 
-[![IMAGE ALT TEXT HERE](![cover](https://github.com/Act-Cadenza/Algomon/assets/71002490/118ed9ff-c77f-4bd2-af54-24d2394ad49a))
+[![IMAGE ALT TEXT HERE](https://github.com/Act-Cadenza/Algomon/assets/71002490/942a69b5-d5e0-4287-aabf-965353089ff7)](https://drive.google.com/file/d/1_yhyL0xmOX6I1B8BQtzkijeFIiADcQfH/view?usp=sharing)
 
 Here is the [demo link](https://algomon.vercel.app/) hosted in vercel to try it out.
