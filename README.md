@@ -1,8 +1,6 @@
 ## Algomon Monster Catching Game
 ### Overview
-This is a simple game built with Algorand's pyteal, a smart contract language. 
-This makes use of Pyteal's global and local states to store values that will be used in the game.
- In this game, players can explore a virtual map and capture monsters.
+This is a Blockchain-Based Game or Dapp game developed using Algorand's Pyteal, a smart contract language. The game utilizes Pyteal's global and local states to store necessary values for gameplay. Players can explore a virtual map and engage in the challenge of capturing monsters.
 
 ## Game Mechanics
 
